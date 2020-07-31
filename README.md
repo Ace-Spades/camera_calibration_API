@@ -93,3 +93,11 @@ So you want to extend the API for a custom calibration pattern? Well... OK! Just
 
 ##### Symmetric circular grid/pattern (7 x 6):
 ![Symmetrical circular pattern](http://answers.opencv.org/upfiles/13785495544653926.jpg)
+
+
+
+
+
+### 一些注意事项
+pattern points 模式点 是指棋盘格内部的角点
+因此例子 中源代码的  pattern_rows = 7  实际上改为 9 更好
