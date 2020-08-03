@@ -99,15 +99,18 @@ So you want to extend the API for a custom calibration pattern? Well... OK! Just
 
 
 ### 一些注意事项
+#### pattern points
 pattern points 模式点 是指棋盘格内部的角点
+
 因此例子 中源代码的  pattern_rows = 7  实际上改为 9 更好
 
+#### ax.set.aspect 报错
 matplotlib 安装为3.3.0版本，则ax.set.aspect会报错
-在3.1.2的版本中，aspect可以设置为{'auto','equal'}或 num
-在3.3.0的版本中 aspect只能设置为{'auto'}或num
 
-详情可参考官方文档
-matplotlib官方文档
-Version：3.3.0 https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.set_aspect.html
-Version：3.1.2 https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.axes.Axes.set_aspect.html
+* 在3.1.2的版本中，aspect可以设置为{'auto','equal'}或 num
+* 在3.3.0的版本中 aspect只能设置为{'auto'}或num
+
+详情可参考matplotlib官方文档
+* Version：3.3.0 https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.set_aspect.html
+* Version：3.1.2 https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.axes.Axes.set_aspect.html
 
